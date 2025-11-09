@@ -19,6 +19,9 @@ layui.use(['element', 'form', 'layer'], function () {
     function init() {
         loadData();
         bindEvents();
+        
+        // 确保 LayUI 导航栏正确渲染
+        element.render('nav');
     }
 
     // 加载所有数据
@@ -165,6 +168,9 @@ layui.use(['element', 'form', 'layer'], function () {
         } else if (tab === 'prompts') {
             document.getElementById('prompts-content').style.display = 'block';
         }
+        
+        // 重新渲染导航，确保下划线正确显示
+        element.render('nav');
     }
 
     // 渲染网站卡片

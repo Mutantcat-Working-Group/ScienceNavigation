@@ -10,6 +10,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 改善移动端触摸体验 */
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    touch-action: manipulation;
 }
 
 /* 头部导航 */
@@ -242,11 +253,16 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .website-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+}
+
+.website-card:active {
+    transform: translateY(-2px);
 }
 
 .card-header {
@@ -418,34 +434,101 @@ body {
 
 /* 响应式设计 */
 @media screen and (max-width: 768px) {
+    /* Header 固定高度 */
     .header-nav {
-        height: auto;
+        height: 100px;
         line-height: normal;
+        padding: 0;
     }
     
     .header-nav .layui-container {
+        height: 100%;
         flex-direction: column;
-        padding: 10px 15px;
+        padding: 12px 15px;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
     
+    /* Logo 样式 */
     .layui-logo {
-        margin-right: 0;
-        margin-bottom: 10px;
-        font-size: 20px;
+        font-size: 19px;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        line-height: 1.2;
     }
     
+    /* 导航栏样式 */
+    .header-nav .layui-nav {
+        width: auto;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        position: relative;
+        display: flex !important;
+        flex-wrap: nowrap;
+    }
+    
+    .header-nav .layui-nav-item {
+        margin: 0 10px;
+        line-height: 32px;
+        float: none !important;
+    }
+    
+    .header-nav .layui-nav-item a {
+        padding: 5px 16px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    
+    /* 导航下划线 */
+    .header-nav .layui-nav-bar {
+        display: block !important;
+        height: 2px !important;
+        background-color: #fff !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        transition: all 0.3s !important;
+    }
+    
+    .header-nav .layui-this::after {
+        display: none;
+    }
+    
+    /* 主容器 */
     .main-container {
-        margin-top: 120px;
-        padding: 15px 0;
+        margin-top: 110px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    /* AI提示词页面容器宽度优化 */
+    #prompts-content {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    #prompts-content .layui-row {
+        margin: 0 !important;
+    }
+    
+    #prompts-content .layui-col-md12 {
+        padding: 0 !important;
     }
     
     .search-area {
-        padding: 25px 20px;
+        padding: 20px 15px;
+        border-radius: 12px;
+        margin-bottom: 20px;
     }
     
     .search-wrapper {
         flex-direction: column;
-        gap: 12px;
+        gap: 10px;
     }
     
     .search-input-wrapper {
@@ -453,24 +536,42 @@ body {
     }
     
     .search-input {
-        height: 48px;
+        height: 46px;
         font-size: 14px;
+        padding: 0 45px 0 45px;
+    }
+    
+    .search-icon {
+        left: 15px;
+        font-size: 18px;
+    }
+    
+    .clear-icon {
+        right: 15px;
+        font-size: 16px;
     }
     
     .category-select {
         width: 100%;
-        height: 48px;
+        height: 46px;
         font-size: 14px;
     }
     
     .search-btn {
         width: 100%;
-        height: 48px;
+        height: 46px;
         font-size: 15px;
     }
     
     .website-card {
         padding: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .card-icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
     }
     
     .card-title {
@@ -479,37 +580,133 @@ body {
     
     .card-description {
         font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .keyword-tag {
+        font-size: 11px;
+        padding: 2px 8px;
     }
     
     .prompt-section {
-        padding: 15px;
+        padding: 18px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .section-title {
-        font-size: 16px;
+        font-size: 17px;
+        margin-bottom: 15px;
     }
     
     .roles-container,
     .rules-container {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        width: 100%;
     }
     
     .role-item,
     .rule-item {
-        padding: 12px 15px;
+        padding: 14px 12px;
     }
     
     .role-name,
     .rule-name {
         font-size: 14px;
     }
+    
+    .preview-container {
+        padding: 12px;
+        width: 100%;
+    }
+    
+    #prompt-preview {
+        min-height: 250px !important;
+        font-size: 13px;
+        padding: 12px;
+        width: 100%;
+    }
+    
+    .layui-btn-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .layui-btn-container .layui-btn {
+        width: 100%;
+        margin: 0 !important;
+        height: 44px;
+        font-size: 15px;
+    }
+    
+    .footer {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    /* Header 固定高度 */
+    .header-nav {
+        height: 95px;
+    }
+    
+    .header-nav .layui-container {
+        padding: 10px 12px;
+        gap: 8px;
+    }
+    
+    /* Logo 样式 */
+    .layui-logo {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    /* 导航栏样式 */
+    .header-nav .layui-nav-item {
+        margin: 0 8px;
+        line-height: 30px;
+    }
+    
+    .header-nav .layui-nav-item a {
+        font-size: 13px;
+        padding: 4px 14px;
+    }
+    
+    /* 主容器 */
+    .main-container {
+        margin-top: 105px;
+    }
+    
+    .search-area {
+        padding: 15px 10px;
+    }
+    
+    .prompt-section {
+        padding: 15px;
+        width: 100%;
+    }
+    
     .roles-container,
     .rules-container {
         grid-template-columns: 1fr;
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .role-item,
+    .rule-item {
+        padding: 12px 10px;
+        width: 100%;
+    }
+    
+    .card-keywords {
+        gap: 4px;
     }
 }
 
