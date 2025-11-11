@@ -34,7 +34,8 @@ layui.use(['element', 'form', 'layer'], function () {
         '项目经理',
         '移动端开发工程师',
         '技术支持工程师',
-        '硬件工程师'
+        '硬件工程师',
+        '专业咖啡师'
     ];
 
     const ruleNames = [
