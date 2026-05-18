@@ -2,275 +2,276 @@
     {
         "title": "中国知网",
         "icon": "https://www.cnki.net/favicon.ico",
-        "description": "中国知网是一个综合性的学术资源平台，提供丰富的学术论文、期刊、会议论文等资源。",
+        "description": "中国最大的中文学术资源整合平台，涵盖期刊、硕博论文、会议论文、报纸、年鉴等全类型文献，支持跨库检索与引文分析。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "科学资源",
-            "学术搜索"
+            "中文期刊",
+            "学位论文",
+            "会议论文",
+            "中文数据库"
         ],
         "url": "https://www.cnki.net/"
     },
     {
         "title": "万方数据",
         "icon": "http://www.wanfangdata.com.cn/favicon.ico",
-        "description": "万方数据是中国领先的学术资源平台，提供多种学术文献和科研资源。",
+        "description": "国内领先的学术资源平台，以学位论文和会议论文见长，同时涵盖期刊、专利、标准、科技成果等多种文献类型。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "中文期刊",
+            "学位论文",
+            "专利文献",
+            "中文数据库"
         ],
         "url": "http://www.wanfangdata.com.cn/"
     },
     {
         "title": "维普资讯",
         "icon": "http://www.cqvip.com/favicon.ico",
-        "description": "维普资讯是一个综合性的学术资源平台，提供丰富的学术论文、期刊和会议论文等资源。",
+        "description": "国内大型中文期刊数据库，以期刊论文收录全面见长，同时提供考试题库、学术不端检测等辅助学术服务。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "中文期刊",
+            "学术论文",
+            "考试题库",
+            "中文数据库"
         ],
         "url": "http://www.cqvip.com/"
     },
     {
         "title": "Ei Village",
         "icon": "https://www.engineeringvillage.com/static/images/ei_x.png",
-        "description": "Ei Village是一个领先的工程技术学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "爱思唯尔旗下全球最权威的工程文献检索平台（Compendex），收录1884年至今190+工程学科的3500万+文献，涵盖期刊、会议、标准等多种资源。",
         "keywords": [
-            "科学导航",
-            "信息检索",
+            "工程索引",
+            "文献检索",
             "工程技术",
-            "科研资料"
+            "文摘数据库"
         ],
         "url": "https://www.engineeringvillage.com/home.url"
     },
     {
         "title": "Scopus",
         "icon": "https://www.scopus.com/static/proteus-images/favicon.ico?ver=1.0",
-        "description": "Scopus是一个全球领先的学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "爱思唯尔旗下全球最大的同行评议文献摘要与引文数据库，收录2.5万+期刊的9000万+记录，广泛应用于学术评价与文献计量分析。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "引文数据库",
+            "同行评议",
+            "学术评价",
+            "文献计量"
         ],
         "url": "https://www.scopus.com/"
     },
     {
         "title": "Clarivate",
         "icon": "https://www.clarivate.com.cn/wp-content/themes/clarivate/src/favicon/apple-icon-57x57.png?x62248",
-        "description": "Clarivate是一家全球领先的变革性信息服务提供商，总部位于英国伦敦。",
+        "description": "全球领先的学术信息与数据服务商，旗下拥有 Web of Science、JCR、InCites、EndNote 等知名学术工具，提供期刊评价与科研管理解决方案。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "学术评价",
+            "期刊评价",
+            "引文索引",
+            "科研管理"
         ],
         "url": "https://www.clarivate.com.cn/"
     },
     {
         "title": "SCI-E/SSCI",
         "icon": "https://access.clarivate.com/favicon.ico",
-        "description": "SCI-E/SSCI是国际知名的学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "Clarivate 官方期刊主列表（Master Journal List），用于查询 SCI-E（自然科学）和 SSCI（社会科学）收录期刊范围、影响因子及分区信息。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "期刊目录",
+            "SCI期刊",
+            "SSCI期刊",
+            "核心期刊"
         ],
         "url": "https://mjl.clarivate.com/home"
     },
     {
         "title": "ProQuest（PQDT Global）",
         "icon": "https://www.proquest.com/apple-icon-152x152.png",
-        "description": "PQDT Global是一个全球性的学位论文数据库，提供丰富的学术论文和科研资源。",
+        "description": "全球最大的博硕士论文数据库（PQDT Global），收录全球数千所知名大学的500万+篇学位论文全文，覆盖多学科领域。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "学位论文",
-            "科研资源"
+            "博硕士论文",
+            "全文数据库",
+            "英文文献"
         ],
         "url": "https://www.proquest.com/"
     },
     {
         "title": "IEEE Xplore",
         "icon": "./data/icons/ieee.jpg",
-        "description": "IEEE Xplore是一个领先的学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "IEEE（电气电子工程师学会）官方数字图书馆，收录电子工程、计算机科学等领域的期刊、会议论文、标准和技术报告，工程技术领域核心资源。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "电子工程",
+            "计算机科学",
+            "标准文献",
+            "会议论文"
         ],
         "url": "https://ieeexplore.ieee.org/"
     },
     {
         "title": "arXiv",
         "icon": "https://arxiv.org/favicon.ico",
-        "description": "arXiv是一个免费的预印本数据库，提供丰富的学术论文和科研资源。",
+        "description": "康奈尔大学运营的全球最大预印本平台，覆盖物理学、数学、计算机科学、生物学等领域，支持免费获取与提交，是前沿科研快速传播的重要渠道。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "预印本",
-            "科研资源"
+            "开放获取",
+            "物理学",
+            "计算机科学"
         ],
         "url": "https://arxiv.org/"
     },
     {
         "title": "ORCID",
         "icon": "https://orcid.org/assets/icons/favicon.ico",
-        "description": "ORCID是一个提供唯一学者标识符的平台，帮助研究人员管理和展示他们的学术成果。",
+        "description": "全球通用的免费学者唯一标识符系统，帮助研究人员建立学术档案、关联研究成果、简化投稿与项目管理流程。",
         "keywords": [
             "学者标识符",
-            "学术管理"
+            "学术身份",
+            "成果管理",
+            "学术档案"
         ],
         "url": "https://orcid.org/"
     },
     {
         "title": "中国国家知识产权局",
         "icon": "./data/icons/gjzscqj.png",
-        "description": "中国国家知识产权局是中国官方的知识产权资源平台，提供丰富的专利和科研资源。",
+        "description": "中国官方知识产权管理机构，提供专利、商标、地理标志等知识产权的查询、检索与申请服务，是专利信息的权威官方来源。",
         "keywords": [
-            "科学导航",
-            "信息检索",
+            "专利查询",
+            "商标查询",
             "知识产权",
-            "科研资源",
-            "专利查询"
+            "中国专利"
         ],
         "url": "http://www.cnipa.gov.cn/"
     },
     {
         "title": "中国科学引文索引（CSCD）",
         "icon": "./data/icons/zgkxywsy.png",
-        "description": "中国科学引文索引（CSCI）是中国科学技术领域的重要学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "中国科学院创建的中国科学引文数据库，收录国内优秀科技期刊，被称为「中国的SCI」，用于中文学术论文的引文检索与科研绩效评价。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "科学技术",
-            "科研资源"
+            "引文索引",
+            "中文核心期刊",
+            "科学评价",
+            "引文分析"
         ],
         "url": "http://www.cscd.ac.cn/"
     },
     {
         "title": "百度学术",
         "icon": "https://ts2.tc.mm.bing.net/th/id/ODF.53xtAm9JTUj2Ubpxoee74Q?w=32&h=32&qlt=90&pcl=fffffc&o=6&cb=ucfimg1&pid=1.2&ucfimg=1",
-        "description": "百度学术是一个综合性的学术搜索引擎，提供丰富的学术论文和科研资源。",
+        "description": "百度旗下的综合化学术搜索引擎，聚合国内外多家中英文数据库资源，支持文献检索、引用追踪、免费下载引导和学者主页等服务。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "学术搜索",
-            "科研资源"
+            "中文文献",
+            "引文检索",
+            "学术聚合"
         ],
         "url": "https://xueshu.baidu.com/"
     },
     {
         "title": "Essential Science Indicators",
         "icon": "https://www.clarivate.com.cn/academia-government/wp-content/themes/clarivate/src/favicon/android-icon-192x192.png?x71074",
-        "description": "Essential Science Indicators简称ESI,是衡量科学研究绩效、跟踪学科发展趋势的基本分析评价工具。",
+        "description": "Clarivate 出品的基本科学指标数据库，基于 WoS 数据统计各学科高被引论文、热点论文和研究前沿，是衡量机构和学者科研影响力的核心工具。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "高被引论文",
+            "热点论文",
+            "学科排名",
+            "科研影响力"
         ],
         "url": "https://esi.clarivate.com/"
     },
     {
         "title": "谷歌学术",
         "icon": "./data/icons/chrome-scholar.ico",
-        "description": "谷歌学术是一个全球性的学术搜索引擎，提供丰富的学术论文和科研资源。",
+        "description": "Google 旗下全球最大的免费学术搜索引擎，索引各学科学术论文、图书、专利和预印本，提供引文统计、相关推荐和个人学术档案功能。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "学术搜索",
-            "科研资源"
+            "英文文献",
+            "引文检索",
+            "开放获取"
         ],
         "url": "https://scholar.google.com/"
     },
     {
         "title": "ResearchGate",
         "icon": "https://www.researchgate.net/favicon.ico",
-        "description": "ResearchGate是一个全球性的学术社交平台，提供丰富的学术论文和科研资源。",
+        "description": "全球最大的学术社交网络平台，研究者可创建个人主页、分享论文全文、关注同行动态、参与学术讨论和寻找科研合作机会。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "学术社交",
-            "科研资源"
+            "科研协作",
+            "论文分享",
+            "学者网络"
         ],
         "url": "https://www.researchgate.net/"
     },
     {
         "title": "PubMed",
         "icon": "https://pubmed.ncbi.nlm.nih.gov/favicon.ico",
-        "description": "PubMed是一个免费的生物医学文献数据库，提供丰富的学术论文和科研资源。",
+        "description": "美国国立医学图书馆（NLM）开发的免费生物医学文献数据库，收录全球3700万+篇生命科学和生物医学文献，医学研究人员必备检索工具。",
         "keywords": [
-            "科学导航",
-            "信息检索",
             "生物医学",
-            "科研资源"
+            "医学文献",
+            "生命科学",
+            "免费数据库"
         ],
         "url": "https://pubmed.ncbi.nlm.nih.gov/"
     },
     {
         "title": "ScienceDirect",
         "icon": "https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/103/images/favSD.ico",
-        "description": "ScienceDirect是一个领先的学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "爱思唯尔旗下全球最大的同行评议学术全文数据库，收录2500+期刊和4万+电子书，覆盖自然科学、工程技术、医学和社会科学全学科领域。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "全文数据库",
+            "学术期刊",
+            "英文文献",
+            "综合学科"
         ],
         "url": "https://www.sciencedirect.com/"
     },
     {
         "title": "SpringerLink",
         "icon": "https://link.springer.com/oscar-static/img/favicons/darwin/apple-touch-icon-6ef0829b9c.png",
-        "description": "SpringerLink是一个综合性的学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "施普林格·自然旗下的综合学术资源平台，收录3000+期刊、30万+电子书及参考工具书，覆盖科学、技术、医学和人文社科等全学科。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "全文数据库",
+            "电子图书",
+            "学术期刊",
+            "综合学科"
         ],
         "url": "https://link.springer.com/"
     },
     {
         "title": "中文社会科学引文索引（CSSCI）",
         "icon": "./data/icons/cssci.png",
-        "description": "中文社会科学引文索引（CSSCI）是中国社会科学领域的重要学术资源平台，提供丰富的学术论文和科研资源。",
+        "description": "南京大学开发的中文社会科学引文索引，收录国内高水平社科期刊，是社科领域最权威的核心期刊评价体系与引文检索工具。",
         "keywords": [
-            "科学导航",
-            "信息检索",
+            "引文索引",
             "社会科学",
-            "科研资源"
+            "中文核心期刊",
+            "学术评价"
         ],
         "url": "http://cssci.nju.edu.cn/"
     },
     {
-        "title":"波尔",
-        "icon":"https://cdn1.deepmd.net/bohrium/web/images/8c4ab8c9/browser-fav.png",
-        "description":"玻尔号称全球科学家的 AI for Science 空间站，是一个严谨的学术性AI工具。",
+        "title": "波尔",
+        "icon": "https://cdn1.deepmd.net/bohrium/web/images/8c4ab8c9/browser-fav.png",
+        "description": "深势科技与北京科学智能研究院联合打造的 AI for Science 旗舰平台，集成1.7亿+英文论文和1.6亿+专利，提供AI语义检索、文献精读、前沿追踪等全流程智能科研工具。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术AI",
-            "科研资源"
+            "AI科研工具",
+            "文献检索",
+            "知识库",
+            "科研助手"
         ],
         "url": "https://www.bohrium.com/"
     },
     {
         "title": "JSTOR",
         "icon": "https://www.jstor.org/favicon.ico",
-        "description": "JSTOR是一个综合性的学术资源平台，提供丰富的学术论文、期刊和书籍等资源。",
+        "description": "全球知名的人文社科过刊全文数据库，收录大量学术期刊、书籍和原始文献的数字化全文，以回溯期刊覆盖深度著称，人文社科领域核心资源。",
         "keywords": [
-            "科学导航",
-            "信息检索",
-            "学术资源",
-            "科研资料"
+            "人文社科",
+            "过刊全文",
+            "电子图书",
+            "数字图书馆"
         ],
         "url": "https://www.jstor.org/"
     }
