@@ -14,6 +14,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* SEO专用：视觉隐藏但保持可访问性 */
+.seo-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* 改善移动端触摸体验 */
 a, button, input, select, textarea {
     -webkit-tap-highlight-color: transparent;

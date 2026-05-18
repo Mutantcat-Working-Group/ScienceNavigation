@@ -83,6 +83,17 @@ layui.use(['element', 'form', 'layer'], function () {
         loadData();
         bindEvents();
 
+        // 根据URL hash初始化对应标签页
+        if (window.location.hash === '#prompts') {
+            switchTab('prompts', false);
+        }
+
+        // 监听浏览器前进/后退按钮
+        window.addEventListener('popstate', function () {
+            var tab = window.location.hash === '#prompts' ? 'prompts' : 'tools';
+            switchTab(tab, false);
+        });
+
         // 确保 LayUI 导航栏正确渲染
         element.render('nav');
     }
@@ -240,7 +251,15 @@ layui.use(['element', 'form', 'layer'], function () {
     }
 
     // 切换标签页
-    function switchTab(tab) {
+    function switchTab(tab, updateHash) {
+        // 更新URL hash（默认更新，除非明确传false）
+        if (updateHash !== false) {
+            var newHash = tab === 'tools' ? '' : '#prompts';
+            if (window.location.hash !== newHash) {
+                history.pushState(null, '', newHash || window.location.pathname);
+            }
+        }
+
         // 更新导航状态
         document.querySelectorAll('.layui-nav-item').forEach(item => {
             item.classList.remove('layui-this');

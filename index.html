@@ -4,11 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>科学导航 - 信息检索/AI提示词</title>
-    <meta name="description" content="科学导航 - 信息检索/AI提示词/免费科学资源/学术搜索">
-    <link rel="icon" href="icon.png" type="image/x-icon">
-    <meta name="keywords" content="科学导航, 信息检索, AI提示词, 科学资源, 学术搜索">
+    <title>科学导航 - 信息检索 | AI提示词 | 学术资源搜索</title>
+    <meta name="description" content="科学导航提供免费科学资源检索、学术搜索引擎导航、AI提示词定制（25+角色、28+规则），助力科研工作者高效获取学术信息与AI辅助。">
+    <meta name="keywords" content="科学导航, 信息检索, AI提示词, 科学资源, 学术搜索, 文献检索, 科研工具, 学术引擎">
     <meta name="author" content="Mutantcat">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e9fff">
+    <link rel="canonical" href="https://science.mutantcat.org/">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://science.mutantcat.org/">
+    <meta property="og:title" content="科学导航 - 信息检索 | AI提示词 | 学术资源搜索">
+    <meta property="og:description" content="科学导航提供免费科学资源检索、学术搜索引擎导航、AI提示词定制（25+角色、28+规则），助力科研工作者高效获取学术信息与AI辅助。">
+    <meta property="og:image" content="https://science.mutantcat.org/icon.png">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="科学导航">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://science.mutantcat.org/">
+    <meta name="twitter:title" content="科学导航 - 信息检索 | AI提示词 | 学术资源搜索">
+    <meta name="twitter:description" content="科学导航提供免费科学资源检索、学术搜索引擎导航、AI提示词定制（25+角色、28+规则），助力科研工作者高效获取学术信息与AI辅助。">
+    <meta name="twitter:image" content="https://science.mutantcat.org/icon.png">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "科学导航",
+      "url": "https://science.mutantcat.org/",
+      "description": "科学导航提供免费科学资源检索、学术搜索引擎导航、AI提示词定制，助力科研工作者高效获取学术信息与AI辅助。",
+      "author": { "@type": "Person", "name": "Mutantcat" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://science.mutantcat.org/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
     <link href="//unpkg.com/layui@2.13.0/dist/css/layui.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/layui.css"> -->
     <link rel="stylesheet" href="css/style.css">
@@ -18,7 +52,7 @@
     <!-- 头部导航 -->
     <div class="layui-header header-nav">
         <div class="layui-container">
-            <div class="layui-logo">科学导航</div>
+            <a href="/" class="layui-logo" aria-label="科学导航首页">科学导航</a>
             <ul class="layui-nav layui-layout-center" lay-filter="nav">
                 <li class="layui-nav-item layui-this" data-tab="tools">
                     <a href="javascript:;">工具索引</a>
@@ -34,6 +68,7 @@
     <div class="layui-container main-container">
         <!-- 工具索引板块 -->
         <div class="tab-content" id="tools-content">
+            <h1 class="seo-title">科学导航 - 学术资源搜索引擎与AI提示词工具</h1>
             <!-- 搜索和筛选区域 -->
             <div class="search-area">
                 <div class="search-wrapper">
@@ -64,7 +99,7 @@
                 <!-- 角色选择 -->
                 <div class="layui-col-md12">
                     <div class="prompt-section">
-                        <h3 class="section-title">选择角色（单选）</h3>
+                        <h2 class="section-title">选择角色（单选）</h2>
                         <div id="roles-container" class="roles-container">
                             <!-- 角色选项将通过JS动态生成 -->
                         </div>
@@ -74,7 +109,7 @@
                 <!-- 规则选择 -->
                 <div class="layui-col-md12">
                     <div class="prompt-section">
-                        <h3 class="section-title">选择规则（可多选）</h3>
+                        <h2 class="section-title">选择规则（可多选）</h2>
                         <div id="rules-container" class="rules-container">
                             <!-- 规则选项将通过JS动态生成 -->
                         </div>
@@ -84,7 +119,7 @@
                 <!-- 提示词预览 -->
                 <div class="layui-col-md12">
                     <div class="prompt-section">
-                        <h3 class="section-title">提示词预览</h3>
+                        <h2 class="section-title">提示词预览</h2>
                         <div class="preview-container">
                             <textarea id="prompt-preview" class="layui-textarea" readonly style="min-height: 300px;"></textarea>
                         </div>
