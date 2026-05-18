@@ -271,7 +271,7 @@ layui.use(['element', 'form', 'layer'], function () {
             <div class="layui-col-md4 layui-col-sm6 layui-col-xs12">
                 <div class="website-card" onclick="window.open('${site.url}', '_blank')">
                     <div class="card-header">
-                        <img src="${site.icon}" alt="${site.title}" class="card-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 fill=%22%23667eea%22/><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2216%22>${site.title.charAt(0)}</svg>'">
+                        <img src="${site.icon}" alt="${site.title}" class="card-icon" data-original="${site.icon}" data-title="${site.title}">
                         <h3 class="card-title">${site.title}</h3>
                     </div>
                     <p class="card-description">${site.description}</p>
@@ -281,6 +281,38 @@ layui.use(['element', 'form', 'layer'], function () {
                 </div>
             </div>
         `).join('');
+
+        // 图标超时回退机制：3秒内未加载完成则显示本站图标
+        const ICON_TIMEOUT = 3000;
+        const icons = container.querySelectorAll('.card-icon');
+        icons.forEach(function (img) {
+            var fallbackTriggered = false;
+            var title = img.getAttribute('data-title') || '';
+
+            function fallbackToSiteIcon() {
+                if (fallbackTriggered) return;
+                fallbackTriggered = true;
+                img.src = 'icon.png';
+                img.onerror = function () {
+                    img.src = 'data:image/svg+xml,' + encodeURIComponent(
+                        '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">' +
+                        '<rect width="32" height="32" fill="#667eea"/>' +
+                        '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="16">' +
+                        (title.charAt(0) || '?') + '</text></svg>'
+                    );
+                    img.onerror = null;
+                };
+            }
+
+            var timer = setTimeout(function () {
+                if (!img.complete || img.naturalWidth === 0) {
+                    fallbackToSiteIcon();
+                }
+            }, ICON_TIMEOUT);
+
+            img.addEventListener('load', function () { clearTimeout(timer); }, { once: true });
+            img.addEventListener('error', function () { clearTimeout(timer); fallbackToSiteIcon(); }, { once: true });
+        });
     }
 
     // 生成分类选项
