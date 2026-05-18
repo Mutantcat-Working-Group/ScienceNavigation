@@ -49,7 +49,7 @@
     },
     {
         "title": "Scopus",
-        "icon": "https://www.scopus.com/static/proteus-images/favicon.ico?ver=1.0",
+        "icon": "./data/icons/sc.ico",
         "description": "爱思唯尔旗下全球最大的同行评议文献摘要与引文数据库，收录2.5万+期刊的9000万+记录，广泛应用于学术评价与文献计量分析。",
         "keywords": [
             "引文数据库",
@@ -85,7 +85,7 @@
     },
     {
         "title": "ProQuest（PQDT Global）",
-        "icon": "https://www.proquest.com/apple-icon-152x152.png",
+        "icon": "./data/icons/pq.png",
         "description": "全球最大的博硕士论文数据库（PQDT Global），收录全球数千所知名大学的500万+篇学位论文全文，覆盖多学科领域。",
         "keywords": [
             "学位论文",
@@ -274,5 +274,29 @@
             "数字图书馆"
         ],
         "url": "https://www.jstor.org/"
+    },
+    {
+        "title": "豆包",
+        "icon": "./data/icons/doubao.png",
+        "description": "字节跳动旗下的AI智能助手，基于自研豆包大模型，支持AI对话、写作、编程、翻译、图像生成等多模态交互，提供网页端、App及桌面客户端。",
+        "keywords": [
+            "AI助手",
+            "大模型",
+            "多模态",
+            "编程辅助"
+        ],
+        "url": "https://www.doubao.com/"
+    },
+    {
+        "title": "DeepSeek",
+        "icon": "https://www.deepseek.com/favicon.ico",
+        "description": "深度求索开发的全球领先开源大模型AI助手，以DeepSeek-R1/V3系列模型著称，擅长深度推理与代码生成，完全免费，支持网页端和App使用。",
+        "keywords": [
+            "AI助手",
+            "大模型",
+            "深度推理",
+            "编程辅助"
+        ],
+        "url": "https://www.deepseek.com/"
     }
 ]
