@@ -1,0 +1,114 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - link "科学导航首页" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: 科学导航
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "工具索引" [ref=e7] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e8]:
+        - link "AI提示词" [ref=e9] [cursor=pointer]:
+          - /url: javascript:;
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - heading "科学导航 - 学术资源搜索引擎与AI提示词工具" [level=1] [ref=e12]
+      - generic [ref=e13]:
+        - heading "学术资源导航" [level=2] [ref=e14]
+        - paragraph [ref=e15]: 精心收录的学术搜索、文献检索与 AI 工具，帮你高效找到科研路上需要的一切。
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic: 
+          - textbox "搜索网站名称、关键词..." [ref=e19]: google
+          - generic [ref=e436] [cursor=pointer]: ဇ
+        - combobox [ref=e20] [cursor=pointer]:
+          - option "全部分类" [selected]
+          - option "中文期刊"
+          - option "学位论文"
+          - option "会议论文"
+          - option "中文数据库"
+          - option "专利文献"
+          - option "学术论文"
+          - option "考试题库"
+          - option "工程索引"
+          - option "文献检索"
+          - option "工程技术"
+          - option "文摘数据库"
+          - option "引文数据库"
+          - option "同行评议"
+          - option "学术评价"
+          - option "文献计量"
+          - option "期刊评价"
+          - option "引文索引"
+          - option "科研管理"
+          - option "期刊目录"
+          - option "SCI期刊"
+          - option "SSCI期刊"
+          - option "核心期刊"
+          - option "博硕士论文"
+          - option "全文数据库"
+          - option "英文文献"
+          - option "电子工程"
+          - option "计算机科学"
+          - option "标准文献"
+          - option "预印本"
+          - option "开放获取"
+          - option "物理学"
+          - option "学者标识符"
+          - option "学术身份"
+          - option "成果管理"
+          - option "学术档案"
+          - option "专利查询"
+          - option "商标查询"
+          - option "知识产权"
+          - option "中国专利"
+          - option "中文核心期刊"
+          - option "科学评价"
+          - option "引文分析"
+          - option "学术搜索"
+          - option "中文文献"
+          - option "引文检索"
+          - option "学术聚合"
+          - option "高被引论文"
+          - option "热点论文"
+          - option "学科排名"
+          - option "科研影响力"
+          - option "学术社交"
+          - option "科研协作"
+          - option "论文分享"
+          - option "学者网络"
+          - option "生物医学"
+          - option "医学文献"
+          - option "生命科学"
+          - option "免费数据库"
+          - option "学术期刊"
+          - option "综合学科"
+          - option "电子图书"
+          - option "社会科学"
+          - option "AI科研工具"
+          - option "知识库"
+          - option "科研助手"
+          - option "人文社科"
+          - option "过刊全文"
+          - option "数字图书馆"
+          - option "AI助手"
+          - option "大模型"
+          - option "多模态"
+          - option "编程辅助"
+          - option "深度推理"
+        - button " 搜索" [active] [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: 
+          - generic [ref=e23]: 搜索
+      - generic [ref=e25]: 全部资源
+      - generic [ref=e438] [cursor=pointer]:
+        - generic [ref=e439]:
+          - img "谷歌学术" [ref=e440]
+          - heading "谷歌学术" [level=3] [ref=e441]
+        - paragraph [ref=e442]: Google 旗下全球最大的免费学术搜索引擎，索引各学科学术论文、图书、专利和预印本，提供引文统计、相关推荐和个人学术档案功能。
+        - generic [ref=e443]:
+          - generic [ref=e444]: 学术搜索
+          - generic [ref=e445]: 英文文献
+          - generic [ref=e446]: 引文检索
+          - generic [ref=e447]: 开放获取
+    - text: 25 个 28 个 ✓  
+  - paragraph [ref=e28]: © 2025-2026 科学导航 by Mutantcat. All Rights Reserved.

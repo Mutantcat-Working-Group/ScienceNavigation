@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "科学导航首页" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: 科学导航
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "工具索引" [ref=e7] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e8]:
+        - link "AI提示词" [ref=e9] [cursor=pointer]:
+          - /url: javascript:;
+  - generic [ref=e10]:
+    - text:  ဇ 
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - heading "AI 提示词工坊" [level=2] [ref=e307]
+        - paragraph [ref=e308]: 选一个角色，再挑几条规则，自动拼出一段可用的提示词。
+      - generic [ref=e309]:
+        - generic [ref=e311]:
+          - heading "选择角色（单选） 25 个" [level=2] [ref=e312]
+          - generic [ref=e313]:
+            - generic [ref=e315] [cursor=pointer]: 普通AI
+            - generic [ref=e317] [cursor=pointer]: 软件工程师
+            - generic [ref=e319] [cursor=pointer]: 数据分析师
+            - generic [ref=e321] [cursor=pointer]: 产品经理
+            - generic [ref=e323] [cursor=pointer]: UI设计师
+            - generic [ref=e325] [cursor=pointer]: 前端开发工程师
+            - generic [ref=e327] [cursor=pointer]: 后端开发工程师
+            - generic [ref=e329] [cursor=pointer]: 算法工程师
+            - generic [ref=e331] [cursor=pointer]: 运维工程师
+            - generic [ref=e333] [cursor=pointer]: 测试工程师
+            - generic [ref=e335] [cursor=pointer]: 技术文档工程师
+            - generic [ref=e337] [cursor=pointer]: 架构师
+            - generic [ref=e339] [cursor=pointer]: 数据库管理员
+            - generic [ref=e341] [cursor=pointer]: 安全工程师
+            - generic [ref=e343] [cursor=pointer]: 项目经理
+            - generic [ref=e345] [cursor=pointer]: 移动端开发工程师
+            - generic [ref=e347] [cursor=pointer]: 技术支持工程师
+            - generic [ref=e349] [cursor=pointer]: 硬件工程师
+            - generic [ref=e351] [cursor=pointer]: 专业咖啡师
+            - generic [ref=e353] [cursor=pointer]: 学术导师
+            - generic [ref=e355] [cursor=pointer]: 翻译专家
+            - generic [ref=e357] [cursor=pointer]: 法律顾问
+            - generic [ref=e359] [cursor=pointer]: 医学顾问
+            - generic [ref=e361] [cursor=pointer]: 金融分析师
+            - generic [ref=e363] [cursor=pointer]: 数学教授
+        - generic [ref=e365]:
+          - heading "选择规则（可多选） 28 个" [level=2] [ref=e366]
+          - generic [ref=e367]:
+            - generic [ref=e369] [cursor=pointer]: 强制中文
+            - generic [ref=e371] [cursor=pointer]: 置信度提示
+            - generic [ref=e373] [cursor=pointer]: 别忘了调用工具
+            - generic [ref=e375] [cursor=pointer]: 让小学生也能看懂
+            - generic [ref=e377] [cursor=pointer]: 提供代码示例
+            - generic [ref=e379] [cursor=pointer]: 分步骤详细说明
+            - generic [ref=e381] [cursor=pointer]: 列举优缺点
+            - generic [ref=e383] [cursor=pointer]: 提供实际案例
+            - generic [ref=e385] [cursor=pointer]: 给出多种方案
+            - generic [ref=e387] [cursor=pointer]: 简洁明了
+            - generic [ref=e389] [cursor=pointer]: 使用表格对比
+            - generic [ref=e391] [cursor=pointer]: 强调注意事项
+            - generic [ref=e393] [cursor=pointer]: 给出最佳实践
+            - generic [ref=e395] [cursor=pointer]: 提供学习资源
+            - generic [ref=e397] [cursor=pointer]: 使用图表辅助
+            - generic [ref=e399] [cursor=pointer]: 先总结后详述
+            - generic [ref=e401] [cursor=pointer]: 说明引入文献
+            - generic [ref=e403] [cursor=pointer]: 说明信息出处
+            - generic [ref=e405] [cursor=pointer]: 引用权威资源
+            - generic [ref=e407] [cursor=pointer]: GBT 7714-2015引用
+            - generic [ref=e409] [cursor=pointer]: 不想依赖AI
+            - generic [ref=e411] [cursor=pointer]: 避免AI感
+            - generic [ref=e413] [cursor=pointer]: 逐步推理
+            - generic [ref=e415] [cursor=pointer]: 多角度分析
+            - generic [ref=e417] [cursor=pointer]: 专业术语解释
+            - generic [ref=e419] [cursor=pointer]: 优先中文资料
+            - generic [ref=e421] [cursor=pointer]: 结构化输出
+            - generic [ref=e423] [cursor=pointer]: 给出验证方法
+        - generic [ref=e425]:
+          - heading "提示词预览" [level=2] [ref=e426]
+          - textbox [ref=e428]: "我现在真的非常着急，并且非常愤怒，你必须认真回答我的信息或帮我处理代码，确保信息真实，代码严谨可用，必须一遍成功！必须严谨！不能胡编乱造！一旦违反，后果会非常严重！ 接下来我说明一下我陈述的顺序和内容: 1. 你现在应该作为的角色（重要） 2. 回答我问题的时候必须遵守的规则（重要） 3. 我的问题（非常重要） 回答我问题时候你的角色： 你是一名软件工程师，具有非常强的专业素养，精通多种编程语言，并且善于搜索，善于归纳总结且逻辑严谨，只会相信置信度比较高的且较为精准的信息。 回答我的问题时遵守以下规则： （请选择规则） 我的问题是："
+          - generic [ref=e429]:
+            - button " 重置选择" [ref=e430] [cursor=pointer]:
+              - generic [ref=e431]: 
+              - text: 重置选择
+            - button " 复制提示词" [ref=e432] [cursor=pointer]:
+              - generic [ref=e434]: 
+              - text: 复制提示词
+  - paragraph [ref=e28]: © 2025-2026 科学导航 by Mutantcat. All Rights Reserved.

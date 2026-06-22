@@ -69,6 +69,10 @@
         <!-- 工具索引板块 -->
         <div class="tab-content" id="tools-content">
             <h1 class="seo-title">科学导航 - 学术资源搜索引擎与AI提示词工具</h1>
+            <div class="page-intro">
+                <h2 class="page-title">学术资源导航</h2>
+                <p class="page-subtitle">精心收录的学术搜索、文献检索与 AI 工具，帮你高效找到科研路上需要的一切。</p>
+            </div>
             <!-- 搜索和筛选区域 -->
             <div class="search-area">
                 <div class="search-wrapper">
@@ -88,6 +92,10 @@
             </div>
 
             <!-- 网站卡片展示区域 -->
+            <div class="results-header">
+                <span class="results-label" id="results-label">全部资源</span>
+                <span class="results-meta" id="results-meta"></span>
+            </div>
             <div class="layui-row layui-col-space15" id="website-cards">
                 <!-- 卡片将通过JS动态生成 -->
             </div>
@@ -95,11 +103,15 @@
 
         <!-- AI提示词板块 -->
         <div class="tab-content" id="prompts-content" style="display: none;">
+            <div class="page-intro">
+                <h2 class="page-title">AI 提示词工坊</h2>
+                <p class="page-subtitle">选一个角色，再挑几条规则，自动拼出一段可用的提示词。</p>
+            </div>
             <div class="layui-row layui-col-space15">
                 <!-- 角色选择 -->
                 <div class="layui-col-md12">
                     <div class="prompt-section">
-                        <h2 class="section-title">选择角色（单选）</h2>
+                        <h2 class="section-title" data-count="25 个">选择角色（单选）</h2>
                         <div id="roles-container" class="roles-container">
                             <!-- 角色选项将通过JS动态生成 -->
                         </div>
@@ -109,7 +121,7 @@
                 <!-- 规则选择 -->
                 <div class="layui-col-md12">
                     <div class="prompt-section">
-                        <h2 class="section-title">选择规则（可多选）</h2>
+                        <h2 class="section-title" data-count="28 个">选择规则（可多选）</h2>
                         <div id="rules-container" class="rules-container">
                             <!-- 规则选项将通过JS动态生成 -->
                         </div>

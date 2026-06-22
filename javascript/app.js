@@ -288,6 +288,10 @@ layui.use(['element', 'form', 'layer'], function () {
     // 渲染网站卡片
     function renderWebsiteCards(websites) {
         const container = document.getElementById('website-cards');
+        const meta = document.getElementById('results-meta');
+        if (meta) {
+            meta.textContent = websites.length + ' 个网站';
+        }
 
         if (websites.length === 0) {
             container.innerHTML = `
