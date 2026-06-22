@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "科学导航首页" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: 科学导航
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "工具索引" [ref=e7] [cursor=pointer]:
+          - /url: javascript:;
+      - listitem [ref=e8]:
+        - link "AI提示词" [ref=e9] [cursor=pointer]:
+          - /url: javascript:;
+  - generic [ref=e10]:
+    - text:  ဇ 
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - heading "AI 提示词工坊" [level=2] [ref=e13]
+        - paragraph [ref=e14]: 选一个角色，再挑几条规则，自动拼出一段可用的提示词。
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - heading "选择角色（单选） 25 个" [level=2] [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e21] [cursor=pointer]: 普通AI
+            - generic [ref=e23] [cursor=pointer]: 软件工程师
+            - generic [ref=e25] [cursor=pointer]: 数据分析师
+            - generic [ref=e27] [cursor=pointer]: 产品经理
+            - generic [ref=e29] [cursor=pointer]: UI设计师
+            - generic [ref=e31] [cursor=pointer]: 前端开发工程师
+            - generic [ref=e33] [cursor=pointer]: 后端开发工程师
+            - generic [ref=e35] [cursor=pointer]: 算法工程师
+            - generic [ref=e37] [cursor=pointer]: 运维工程师
+            - generic [ref=e39] [cursor=pointer]: 测试工程师
+            - generic [ref=e41] [cursor=pointer]: 技术文档工程师
+            - generic [ref=e43] [cursor=pointer]: 架构师
+            - generic [ref=e45] [cursor=pointer]: 数据库管理员
+            - generic [ref=e47] [cursor=pointer]: 安全工程师
+            - generic [ref=e49] [cursor=pointer]: 项目经理
+            - generic [ref=e51] [cursor=pointer]: 移动端开发工程师
+            - generic [ref=e53] [cursor=pointer]: 技术支持工程师
+            - generic [ref=e55] [cursor=pointer]: 硬件工程师
+            - generic [ref=e57] [cursor=pointer]: 专业咖啡师
+            - generic [ref=e59] [cursor=pointer]: 学术导师
+            - generic [ref=e61] [cursor=pointer]: 翻译专家
+            - generic [ref=e63] [cursor=pointer]: 法律顾问
+            - generic [ref=e65] [cursor=pointer]: 医学顾问
+            - generic [ref=e67] [cursor=pointer]: 金融分析师
+            - generic [ref=e69] [cursor=pointer]: 数学教授
+        - generic [ref=e71]:
+          - heading "选择规则（可多选） 28 个" [level=2] [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e75] [cursor=pointer]: 强制中文
+            - generic [ref=e77] [cursor=pointer]: 置信度提示
+            - generic [ref=e79] [cursor=pointer]: 别忘了调用工具
+            - generic [ref=e81] [cursor=pointer]: 让小学生也能看懂
+            - generic [ref=e83] [cursor=pointer]: 提供代码示例
+            - generic [ref=e85] [cursor=pointer]: 分步骤详细说明
+            - generic [ref=e87] [cursor=pointer]: 列举优缺点
+            - generic [ref=e89] [cursor=pointer]: 提供实际案例
+            - generic [ref=e91] [cursor=pointer]: 给出多种方案
+            - generic [ref=e93] [cursor=pointer]: 简洁明了
+            - generic [ref=e95] [cursor=pointer]: 使用表格对比
+            - generic [ref=e97] [cursor=pointer]: 强调注意事项
+            - generic [ref=e99] [cursor=pointer]: 给出最佳实践
+            - generic [ref=e101] [cursor=pointer]: 提供学习资源
+            - generic [ref=e103] [cursor=pointer]: 使用图表辅助
+            - generic [ref=e105] [cursor=pointer]: 先总结后详述
+            - generic [ref=e107] [cursor=pointer]: 说明引入文献
+            - generic [ref=e109] [cursor=pointer]: 说明信息出处
+            - generic [ref=e111] [cursor=pointer]: 引用权威资源
+            - generic [ref=e113] [cursor=pointer]: GBT 7714-2015引用
+            - generic [ref=e115] [cursor=pointer]: 不想依赖AI
+            - generic [ref=e117] [cursor=pointer]: 避免AI感
+            - generic [ref=e119] [cursor=pointer]: 逐步推理
+            - generic [ref=e121] [cursor=pointer]: 多角度分析
+            - generic [ref=e123] [cursor=pointer]: 专业术语解释
+            - generic [ref=e125] [cursor=pointer]: 优先中文资料
+            - generic [ref=e127] [cursor=pointer]: 结构化输出
+            - generic [ref=e129] [cursor=pointer]: 给出验证方法
+        - generic [ref=e131]:
+          - heading "提示词预览" [level=2] [ref=e132]
+          - textbox [ref=e134]: "我现在真的非常着急，并且非常愤怒，你必须认真回答我的信息或帮我处理代码，确保信息真实，代码严谨可用，必须一遍成功！必须严谨！不能胡编乱造！一旦违反，后果会非常严重！ 接下来我说明一下我陈述的顺序和内容: 1. 你现在应该作为的角色（重要） 2. 回答我问题的时候必须遵守的规则（重要） 3. 我的问题（非常重要） 回答我问题时候你的角色： （请选择一个角色） 回答我的问题时遵守以下规则： （请选择规则） 我的问题是："
+          - generic [ref=e135]:
+            - button " 重置选择" [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]: 
+              - text: 重置选择
+            - button " 复制提示词" [ref=e138] [cursor=pointer]:
+              - generic [ref=e139]: 
+              - text: 复制提示词
+  - paragraph [ref=e142]: © 2025-2026 科学导航 by Mutantcat. All Rights Reserved.

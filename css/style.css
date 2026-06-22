@@ -72,27 +72,12 @@ button {
     text-decoration: none;
 }
 
-.layui-logo::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #4a6cf7;
-    border-radius: 5px;
+.layui-logo .logo-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
     flex-shrink: 0;
-    position: relative;
-}
-
-.layui-logo::before::after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 10px;
-    height: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.85);
-    border-radius: 2px;
-    transform: rotate(45deg);
+    object-fit: cover;
 }
 
 .header-nav .layui-nav {
@@ -673,6 +658,12 @@ button {
         padding: 0;
         margin: 0;
         line-height: 1.2;
+        justify-content: center;
+    }
+
+    .layui-logo .logo-icon {
+        width: 24px;
+        height: 24px;
     }
 
     /* 导航栏样式 */
