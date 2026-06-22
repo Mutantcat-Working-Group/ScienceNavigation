@@ -289,8 +289,16 @@ layui.use(['element', 'form', 'layer'], function () {
     function renderWebsiteCards(websites) {
         const container = document.getElementById('website-cards');
         const meta = document.getElementById('results-meta');
+        const label = document.getElementById('results-label');
         if (meta) {
             meta.textContent = websites.length + ' 个网站';
+        }
+        if (label) {
+            if (currentSearchKeyword || currentCategory) {
+                label.textContent = '搜索结果';
+            } else {
+                label.textContent = '全部资源';
+            }
         }
 
         if (websites.length === 0) {
