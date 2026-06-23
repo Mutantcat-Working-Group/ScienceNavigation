@@ -1,0 +1,7 @@
+# Playwright test artifacts
+.playwright-cli/
+view*.png
+final*.png
+
+# OS
+.DS_Store
