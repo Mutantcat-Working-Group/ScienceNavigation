@@ -1,3 +1,6 @@
+// 科学导航 — 由异猫工作群（mutantcat.org）发行
+// GitHub: https://github.com/Mutantcat-Working-Group
+
 layui.use(['element', 'form', 'layer'], function () {
     const element = layui.element;
     const form = layui.form;
